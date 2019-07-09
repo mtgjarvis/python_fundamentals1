@@ -16,7 +16,7 @@ print('This is a {} tip ${}'.format(tip_amount, tip))
 
 # Try adding a string and an integer
 
-# print(int('7') + 7)
+print(int('7') + 7)
 
 #string interpolation
 
@@ -27,6 +27,6 @@ second_number = int(input())
 result = first_number * second_number
 print('{} multiplied buy {} equals {}'.format(first_number, second_number, result))
 
-# this equals false
+# this equals true
 
-print(10 < 20 and 30 < 20) or not(10 == 11)
+print((10 < 20 and 30 < 20) or not(10 == 11))
